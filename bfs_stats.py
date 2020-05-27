@@ -3,10 +3,6 @@
 Created on Mon Mar  2 23:10:02 2020
 
 @author: gojea
-ABHIGNYA GOJE
-700703549
-Certificate of Authenticity: “I certify that the codes/answers of this assignment are
-entirely my own work.”
 """
 
 #from IPython.core.debugger import set_trace
