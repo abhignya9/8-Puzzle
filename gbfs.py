@@ -1,12 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[27]:
-""" Name : Abhignya Goje
-    UCM ID : 700703549
-    Certificate of Authenticity: “I certify that the codes/answers of this assignment are
-    entirely my own work."""
-
 from Puzzle8 import *
 from collections import deque
 
@@ -55,24 +49,12 @@ def Greedy_Best_First_Search(problem):
     print('No solution')
     return NULL
 
-
-# In[28]:
-
-
 problem=Puzzle8_Problem(Example1) 
 output=Greedy_Best_First_Search(problem)
 print('Solution Example 1:')
 print_path(output)
 
-
-# In[ ]:
-
-
 wait = input("PRESS ENTER TO CONTINUE.")
-
-
-# In[24]:
-
 
 problem=Puzzle8_Problem(Example2) 
 output=Greedy_Best_First_Search(problem)
@@ -80,13 +62,7 @@ print('Solution Example 2:')
 print_path(output)
 
 
-# In[ ]:
-
-
 wait = input("PRESS ENTER TO CONTINUE.")
-
-
-# In[25]:
 
 
 problem=Puzzle8_Problem(Example3) 
@@ -94,42 +70,9 @@ output=Greedy_Best_First_Search(problem)
 print('Solution Example 3:')
 print_path(output)
 
-
-# In[ ]:
-
-
 wait = input("PRESS ENTER TO CONTINUE.")
-
-
-# In[26]:
-
 
 problem=Puzzle8_Problem(Example4) 
 output=Greedy_Best_First_Search(problem)
 print('Solution Example 4:')
 print_path(output)
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
