@@ -3,10 +3,6 @@
 Created on Mon Mar  2 22:38:50 2020
 
 @author: gojea
-ABHIGNYA GOJE
-700703549
-Certificate of Authenticity: “I certify that the codes/answers of this assignment are
-entirely my own work.”
 """
 
 from Puzzle8 import *
