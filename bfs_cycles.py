@@ -3,11 +3,6 @@
 Created on Mon Mar  2 23:07:03 2020
 
 @author: gojea
-ABHIGNYA GOJE
-700703549
-Certificate of Authenticity: “I certify that the codes/answers of this assignment are
-entirely my own work.”
-"""
 
 from Puzzle8 import *
 from collections import deque
@@ -38,7 +33,6 @@ def breadth_first_search_cycles(problem):
                     que_len+=1
                     a.add_hash(new_node)
                     nodes_generated+=1
-    
                 
     print("No Solution")
     return NULL
