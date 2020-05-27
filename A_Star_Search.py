@@ -1,12 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[10]:
-""" Name : Abhignya Goje
-    UCM ID : 700703549
-    Certificate of Authenticity: “I certify that the codes/answers of this assignment are
-    entirely my own work."""
-
 from Puzzle8 import *
 from collections import deque
 
@@ -60,37 +54,20 @@ def A_Star_Search(problem):
     return NULL
 
 
-# In[11]:
-
-
 problem=Puzzle8_Problem(Example1) 
 output=A_Star_Search(problem)
 print('Solution Example 1:')
 print_path(output)
 
 
-# In[ ]:
-
-
 wait = input("PRESS ENTER TO CONTINUE.")
-
-
-# In[7]:
 
 
 problem=Puzzle8_Problem(Example2) 
 output=A_Star_Search(problem)
 print('Solution Example 2:')
 print_path(output)
-
-
-# In[ ]:
-
-
 wait = input("PRESS ENTER TO CONTINUE.")
-
-
-# In[8]:
 
 
 problem=Puzzle8_Problem(Example3) 
@@ -98,24 +75,10 @@ output=A_Star_Search(problem)
 print('Solution Example 3:')
 print_path(output)
 
-
-# In[ ]:
-
-
 wait = input("PRESS ENTER TO CONTINUE.")
-
-
-# In[9]:
 
 
 problem=Puzzle8_Problem(Example4) 
 output=A_Star_Search(problem)
 print('Solution Example 4:')
 print_path(output)
-
-
-# In[ ]:
-
-
-
-
