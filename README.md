@@ -1,1 +1,1 @@
-# AI-Assignments
+# 8-Puzzle
